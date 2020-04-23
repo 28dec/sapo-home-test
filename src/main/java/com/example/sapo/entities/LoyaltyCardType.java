@@ -1,4 +1,4 @@
-package com.example.sapo;
+package com.example.sapo.entities;
 
 import javax.persistence.*;
 import java.sql.Date;

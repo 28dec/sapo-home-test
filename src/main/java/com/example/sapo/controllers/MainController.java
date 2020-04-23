@@ -1,5 +1,13 @@
-package com.example.sapo;
+package com.example.sapo.controllers;
 
+import com.example.sapo.interfaces.ConfigRepository;
+import com.example.sapo.interfaces.LoyaltyCardRepository;
+import com.example.sapo.interfaces.LoyaltyCardTypeRepository;
+import com.example.sapo.interfaces.TransactionRepository;
+import com.example.sapo.entities.Config;
+import com.example.sapo.entities.LoyaltyCard;
+import com.example.sapo.entities.LoyaltyCardType;
+import com.example.sapo.entities.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
